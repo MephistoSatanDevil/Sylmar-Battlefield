@@ -18,7 +18,7 @@ ALWAYS
 	ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 //  ACTION_DEFINE_ARRAY Zy_noconvert BEGIN END
 
-		ACTION_DEFINE_ARRAY Zy_reload BEGIN Setup ZY1800 END
+		ACTION_DEFINE_ARRAY Zy_reload BEGIN setup zy1800 END
 
 			LAF HANDLE_CHARSETS
 				INT_VAR
@@ -42,7 +42,11 @@ AUTO_TRA ~weidu_external/1Sylm/Languages/autotra/%s~
 
 LANGUAGE ~English~ 	~english~ 
 					~1Sylm\Languages\english\setup.tra~
-					~1Sylm\Languages\english\ZY1800.tra~
+					~1Sylm\Languages\english\zy1800.tra~
+
+LANGUAGE ~Schinese~ 	~schinese~ 
+					~1Sylm\Languages\schinese\setup.tra~
+					~1Sylm\Languages\schinese\zy1800.tra~
 
 /*
 LANGUAGE ~Francais~ ~french~ 
